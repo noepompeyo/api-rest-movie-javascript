@@ -15,7 +15,7 @@ searchFormBtn.addEventListener('click', () => {
 });
 
 trendingBtn.addEventListener('click', () => {
-  location.hash = '#trends';
+  location.hash = 'api-rest-movie-javascript/#trends';
 });
 
 arrowBtn.addEventListener('click', () => {
@@ -35,13 +35,13 @@ function navigator() {
     infiniteScroll = undefined;
   }
   
-  if (location.hash.startsWith('#trends')) {
+  if (location.hash.startsWith('api-rest-movie-javascript/#trends')) {
     trendsPage();
-  } else if (location.hash.startsWith('#search=')) {
+  } else if (location.hash.startsWith('api-rest-movie-javascript/#search=')) {
     searchPage();
-  } else if (location.hash.startsWith('#movie=')) {
+  } else if (location.hash.startsWith('api-rest-movie-javascript/#movie=')) {
     movieDetailsPage();
-  } else if (location.hash.startsWith('#category=')) {
+  } else if (location.hash.startsWith('api-rest-movie-javascript/#category=')) {
     categoriesPage();
   } else {
     homePage();
