@@ -11,7 +11,7 @@ import { getTrendingMoviesPreview,
 let infiniteScroll;
 
 searchFormBtn.addEventListener('click', () => {
-  location.hash = '#search=' + searchFormInput.value;
+  location.hash = 'api-rest-movie-javascript/#search=' + searchFormInput.value;
 });
 
 trendingBtn.addEventListener('click', () => {
