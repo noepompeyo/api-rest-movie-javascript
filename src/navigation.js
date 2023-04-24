@@ -11,11 +11,11 @@ import { getTrendingMoviesPreview,
 let infiniteScroll;
 
 searchFormBtn.addEventListener('click', () => {
-  location.hash = 'api-rest-movie-javascript/#search=' + searchFormInput.value;
+  location.hash = '#search=' + searchFormInput.value;
 });
 
 trendingBtn.addEventListener('click', () => {
-  location.hash = 'api-rest-movie-javascript/#trends';
+  location.hash = '#trends';
 });
 
 arrowBtn.addEventListener('click', () => {
@@ -35,13 +35,13 @@ function navigator() {
     infiniteScroll = undefined;
   }
   
-  if (location.hash.startsWith('api-rest-movie-javascript/#trends')) {
+  if (location.hash.startsWith('#trends')) {
     trendsPage();
-  } else if (location.hash.startsWith('api-rest-movie-javascript/#search=')) {
+  } else if (location.hash.startsWith('#search=')) {
     searchPage();
-  } else if (location.hash.startsWith('api-rest-movie-javascript/#movie=')) {
+  } else if (location.hash.startsWith('#movie=')) {
     movieDetailsPage();
-  } else if (location.hash.startsWith('api-rest-movie-javascript/#category=')) {
+  } else if (location.hash.startsWith('#category=')) {
     categoriesPage();
   } else {
     homePage();
