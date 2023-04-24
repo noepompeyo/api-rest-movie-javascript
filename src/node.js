@@ -1,23 +1,23 @@
 // Secciones
-const headerSection = document.querySelector('#header');
-const trendingPreviewSection = document.querySelector('#trendingPreview');
-const categoríasPreviewSection = document.querySelector('#categoriesPreview');
-const genericSection = document.querySelector('#genericList');
-const movieDetailSection = document.querySelector('#movieDetail');
+export const headerSection = document.querySelector('#header');
+export const trendingPreviewSection = document.querySelector('#trendingPreview');
+export const categoríasPreviewSection = document.querySelector('#categoriesPreview');
+export const genericSection = document.querySelector('#genericList');
+export const movieDetailSection = document.querySelector('#movieDetail');
 // Listas y Contenedores
-const searchForm = document.querySelector('#searchForm');
-const trendingMoviesPreviewList = document.querySelector('.trendingPreview-movieList');
+export const searchForm = document.querySelector('#searchForm');
+export const trendingMoviesPreviewList = document.querySelector('.trendingPreview-movieList');
 
-const categoriesPreviewList = document.querySelector('.categoriesPreview-list');
-const movieDetailCategoriesList = document.querySelector('#movieDetail .categories-list');
-const relatedMoviesContainer = document.querySelector('.relatedMovies-scrollContainer');
+export const categoriesPreviewList = document.querySelector('.categoriesPreview-list');
+export const movieDetailCategoriesList = document.querySelector('#movieDetail .categories-list');
+export const relatedMoviesContainer = document.querySelector('.relatedMovies-scrollContainer');
 // Elementos
-const headerTitle = document.querySelector('.header-title');
-const arrowBtn = document.querySelector('.header-arrow');
-const headerCategoryTitle = document.querySelector('.header-title--categoryView');
-const searchFormInput = document.querySelector('#searchForm input');
-const searchFormBtn = document.querySelector('#searchBtn');
-const trendingBtn = document.querySelector('.trendingPreview-btn');
-const movieDetailTitle = document.querySelector('.movieDetail-title');
-const movieDetailDescription = document.querySelector('.movieDetail-description');
-const movieDetailScore = document.querySelector('.movieDetail-score');
+export const headerTitle = document.querySelector('.header-title');
+export const arrowBtn = document.querySelector('.header-arrow');
+export const headerCategoryTitle = document.querySelector('.header-title--categoryView');
+export const searchFormInput = document.querySelector('#searchForm input');
+export const searchFormBtn = document.querySelector('#searchBtn');
+export const trendingBtn = document.querySelector('.trendingPreview-btn');
+export const movieDetailTitle = document.querySelector('.movieDetail-title');
+export const movieDetailDescription = document.querySelector('.movieDetail-description');
+export const movieDetailScore = document.querySelector('.movieDetail-score');

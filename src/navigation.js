@@ -7,6 +7,28 @@ import { getTrendingMoviesPreview,
     getPaginatedMoviesBySearch,
     getMovieById,} from "./main.js";
 
+import {
+  headerSection,
+trendingPreviewSection,
+categoríasPreviewSection,
+genericSection,
+movieDetailSection,
+searchForm,
+trendingMoviesPreviewList,
+categoriesPreviewList,
+movieDetailCategoriesList,
+relatedMoviesContainer,
+headerTitle,
+arrowBtn,
+headerCategoryTitle,
+searchFormInput,
+searchFormBtn,
+trendingBtn,
+movieDetailTitle,
+movieDetailDescription,
+movieDetailScore
+} from "./node.js";
+
 
 let infiniteScroll;
 
@@ -112,7 +134,7 @@ function movieDetailsPage() {
   searchForm.classList.add('inactive');
 
   trendingPreviewSection.classList.add('inactive');
-  categoriesPreviewSection.classList.add('inactive');
+  categoríasPreviewSection.classList.add('inactive');
   genericSection.classList.add('inactive');
   movieDetailSection.classList.remove('inactive');
 

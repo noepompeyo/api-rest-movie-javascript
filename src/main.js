@@ -7,6 +7,27 @@ const api = axios.create({
       api_key: API_KEY,
     },
   });
+  import {
+    headerSection,
+trendingPreviewSection,
+categoríasPreviewSection,
+genericSection,
+movieDetailSection,
+searchForm,
+trendingMoviesPreviewList,
+categoriesPreviewList,
+movieDetailCategoriesList,
+relatedMoviesContainer,
+headerTitle,
+arrowBtn,
+headerCategoryTitle,
+searchFormInput,
+searchFormBtn,
+trendingBtn,
+movieDetailTitle,
+movieDetailDescription,
+movieDetailScore
+  } from "./node.js";
   
   
   import { API_KEY } from "./secret.mjs";
